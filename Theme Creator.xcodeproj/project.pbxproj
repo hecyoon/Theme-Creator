@@ -7,19 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17100AD52668598500B950C7 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17100AD22668598500B950C7 /* FavoritesView.swift */; };
+		17100AD62668598500B950C7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17100AD32668598500B950C7 /* HomeView.swift */; };
+		17100ADA2668598F00B950C7 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17100AD92668598F00B950C7 /* Database.swift */; };
+		17100ADD26685A9E00B950C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17100ADC26685A9E00B950C7 /* ContentView.swift */; };
+		17100ADF26685AEE00B950C7 /* ThemeGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17100ADE26685AEE00B950C7 /* ThemeGen.swift */; };
+		176AABE32662E7D300212269 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176AABE22662E7D300212269 /* TabBar.swift */; };
+		176AABEB266315C900212269 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176AABEA266315C900212269 /* SceneDelegate.swift */; };
 		17D2B22E2661009700A5697F /* Theme_CreatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D2B22D2661009700A5697F /* Theme_CreatorApp.swift */; };
-		17D2B2302661009700A5697F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D2B22F2661009700A5697F /* ContentView.swift */; };
 		17D2B2322661009800A5697F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D2B2312661009800A5697F /* Assets.xcassets */; };
 		17D2B2352661009800A5697F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D2B2342661009800A5697F /* Preview Assets.xcassets */; };
+		17D4CAF82661219A00EF30E2 /* UIPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4CAF72661219A00EF30E2 /* UIPlayerView.swift */; };
+		17D4CAFC266121B600EF30E2 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4CAFB266121B600EF30E2 /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17100AD22668598500B950C7 /* FavoritesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		17100AD32668598500B950C7 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		17100AD92668598F00B950C7 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		17100ADC26685A9E00B950C7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Theme Creator/ContentView.swift"; sourceTree = SOURCE_ROOT; };
+		17100ADE26685AEE00B950C7 /* ThemeGen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeGen.swift; sourceTree = "<group>"; };
+		1731AE9626611A06004B847F /* bounce.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = bounce.mp4; path = "Theme Creator/bounce.mp4"; sourceTree = SOURCE_ROOT; };
+		176AABE22662E7D300212269 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		176AABEA266315C900212269 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		17D2B22A2661009700A5697F /* Theme Creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Theme Creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D2B22D2661009700A5697F /* Theme_CreatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme_CreatorApp.swift; sourceTree = "<group>"; };
-		17D2B22F2661009700A5697F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17D2B2312661009800A5697F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17D2B2342661009800A5697F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17D2B2362661009800A5697F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D4CAF72661219A00EF30E2 /* UIPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPlayerView.swift; sourceTree = "<group>"; };
+		17D4CAFB266121B600EF30E2 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,9 +50,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17100AD12668598500B950C7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				17100AD22668598500B950C7 /* FavoritesView.swift */,
+				17100AD32668598500B950C7 /* HomeView.swift */,
+				17100ADC26685A9E00B950C7 /* ContentView.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		17100AD82668598F00B950C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17100AD92668598F00B950C7 /* Database.swift */,
+				17100ADE26685AEE00B950C7 /* ThemeGen.swift */,
+			);
+			name = Models;
+			path = "Theme Creator/Models";
+			sourceTree = SOURCE_ROOT;
+		};
+		1731AE95266119F4004B847F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1731AE9626611A06004B847F /* bounce.mp4 */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		176AABE12662E7C300212269 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				176AABE22662E7D300212269 /* TabBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		17D2B2212661009700A5697F = {
 			isa = PBXGroup;
 			children = (
+				1731AE95266119F4004B847F /* Assets */,
 				17D2B22C2661009700A5697F /* Theme Creator */,
 				17D2B22B2661009700A5697F /* Products */,
 			);
@@ -53,8 +107,11 @@
 			isa = PBXGroup;
 			children = (
 				17D2B22D2661009700A5697F /* Theme_CreatorApp.swift */,
-				17D2B22F2661009700A5697F /* ContentView.swift */,
+				17100AD82668598F00B950C7 /* Models */,
+				17100AD12668598500B950C7 /* ViewModels */,
+				176AABE12662E7C300212269 /* Navigation */,
 				17D2B2312661009800A5697F /* Assets.xcassets */,
+				17DDD796266C705F00E06A46 /* BackgroundView */,
 				17D2B2362661009800A5697F /* Info.plist */,
 				17D2B2332661009800A5697F /* Preview Content */,
 			);
@@ -67,6 +124,16 @@
 				17D2B2342661009800A5697F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17DDD796266C705F00E06A46 /* BackgroundView */ = {
+			isa = PBXGroup;
+			children = (
+				17D4CAFB266121B600EF30E2 /* PlayerView.swift */,
+				176AABEA266315C900212269 /* SceneDelegate.swift */,
+				17D4CAF72661219A00EF30E2 /* UIPlayerView.swift */,
+			);
+			path = BackgroundView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +205,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17D2B2302661009700A5697F /* ContentView.swift in Sources */,
 				17D2B22E2661009700A5697F /* Theme_CreatorApp.swift in Sources */,
+				176AABEB266315C900212269 /* SceneDelegate.swift in Sources */,
+				17100ADF26685AEE00B950C7 /* ThemeGen.swift in Sources */,
+				17D4CAFC266121B600EF30E2 /* PlayerView.swift in Sources */,
+				17100AD52668598500B950C7 /* FavoritesView.swift in Sources */,
+				17100AD62668598500B950C7 /* HomeView.swift in Sources */,
+				17100ADD26685A9E00B950C7 /* ContentView.swift in Sources */,
+				176AABE32662E7D300212269 /* TabBar.swift in Sources */,
+				17100ADA2668598F00B950C7 /* Database.swift in Sources */,
+				17D4CAF82661219A00EF30E2 /* UIPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
